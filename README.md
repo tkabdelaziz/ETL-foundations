@@ -12,6 +12,7 @@
 * Loaded results to a dataframe.
 * Zip codes needed to be casted into the correct data type (i.e. from float to integer)
 * Zip codes needed to be extracted from address field (e.g. Austin, TX 78701)
+* Census DataFrame had to be converted into a dictionary or JSON data type before being inserted into a Mongo database.
 
 ## LOAD:
 Mongo DB with three collections:
